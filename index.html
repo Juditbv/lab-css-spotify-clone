@@ -8,10 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <nav>
-      <img src="./images/spotify-logo.png" alt="Spotify logo" />
+    <nav class="py-4 px-9 flex items-center justify-between">
+      <img src="./images/spotify-logo.png" alt="Spotify logo" class="w-40" />
       <div>
-        <ul>
+        <ul class="flex gap-5 justify-between font-light text-lg">
           <li>Premium</li>
           <li>Discover</li>
           <li>Help</li>
@@ -19,9 +19,11 @@
         </ul>
       </div>
     </nav>
-    <header>
-      <h1>Music for everyone.</h1>
-      <p>
+    <header
+      class="bg-[url('./images/landing.jpg')] bg-center bg-cover flex justify-center items-center flex-col w-full sm:p-60 p-4"
+    >
+      <h1 class="text-white text-7xl font-normal mb-6">Music for everyone.</h1>
+      <p class="text-white text-2xl text-center font-thin">
         Spotify is now free on mobile, tablet and computer. Listen to the right
         music, wherever you are.
       </p>
